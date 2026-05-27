@@ -18,6 +18,12 @@ display: flex;
 gap: 2rem;
 }
 
+.logo{
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #38bdf8;
+    letter-spacing: 1px;
+}
 .nav-links li a {
     position: relative;
     font-size: 1.05rem;
