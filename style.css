@@ -1,7 +1,33 @@
 body {
-    background-color: blueviolet;
+    background-color: rgb(5, 3, 8);
 }
 h1{
     color: aqua;
     font-family: 'Times New Roman', Times, serif;
+}
+nav{
+    width: 100%;
+    padding: 1rem 5%;
+    background: red;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.nav-links{
+list-style: none;
+display: flex;
+gap: 2rem;
+}
+
+.nav-links li a {
+    position: relative;
+    font-size: 1.05rem;
+    font-weight: 500;
+    text-decoration: none;
+    color:#e2e8f0
+    transition: 0.3s;
+
+}
+.nav-links li a:hover {
+color: #38bdf8;
+ text-shadow: 0 0 10px #38bdf8;
 }
