@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 body {
-     font-family: "Poppins", sans-serif;
+     background-image: url('../img/IMG_7949.jpg');
+    font-family: "Poppins", sans-serif;
     color: antiquewhite;
  }
 
