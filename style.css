@@ -23,7 +23,7 @@ nav{
 
 nav .nav-group {
 display: flex;
-align-items: center;
+align-items: end;
 gap: 2rem;
 }
 
